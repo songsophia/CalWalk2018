@@ -43,7 +43,7 @@ class ViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     // set initial location in Honolulu
-    let initialLocation = CLLocation(latitude: 122.2727, longitude: 37.8716)
+    let initialLocation = CLLocation(latitude: 37.8716, longitude: -122.2727)
     centerMapOnLocation(location: initialLocation)
 
     mapView.delegate = self
